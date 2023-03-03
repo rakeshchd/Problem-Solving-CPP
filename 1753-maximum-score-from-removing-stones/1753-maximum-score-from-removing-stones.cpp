@@ -10,12 +10,12 @@ public:
             score++;
             sort(v.begin(), v.end(), greater<int>());
         }
-        while(v[1]>0 && v[2]>0){
-            v[1] -= 1;
-            v[2] -= 1;
-            score++;
-            sort(v.begin(), v.end(), greater<int>());
-        }
+        // while(v[1]>0 && v[2]>0){
+        //     v[1] -= 1;
+        //     v[2] -= 1;
+        //     score++;
+        //     sort(v.begin(), v.end(), greater<int>());
+        // }
         return score;
     }
 };
