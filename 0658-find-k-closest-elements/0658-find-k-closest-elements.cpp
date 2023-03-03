@@ -11,7 +11,7 @@ public:
         sort(v.begin(), v.end(), [x](int a, int b){
             return abs(a-x)<abs(b-x) || (abs(a-x)==abs(b-x) && a<b);
         });
-        v.resize(k);
+        // v.resize(k);
         sort(v.begin(), v.end());
         return v;
     }
